@@ -85,15 +85,15 @@ class RatioSuite extends munit.FunSuite:
 	}
 	
 	test("Division of rational and long") {
-		val r = Ratio(2, 3)
+		val r = Ratio(3, 4)
 		val result = r / 2L
-		assertEquals(result.toDouble, 2.0/3.0, 0.0001)
+		assertEquals(result.toDouble, 3.0/8.0, 0.0001)
 	}
 	
 	test("Division of rational and int") {
-		val r = Ratio(2, 3)
+		val r = Ratio(3, 4)
 		val result = r / 2
-		assertEquals(result.toDouble, 2.0/3.0, 0.0001)
+		assertEquals(result.toDouble, 3.0/8.0, 0.0001)
 	}
 	
 	// Unary minus test
