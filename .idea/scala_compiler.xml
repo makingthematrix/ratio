@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="ratio,ratio_6233,ratio_6233.main,ratio_6233.test" />
+    <profile name="sbt 2" modules="ratio.main,ratio.test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+        <parameter value="-explain" />
+        <parameter value="-Wsafe-init" />
+        <parameter value="-Ycheck-all-patmat" />
+        <parameter value="-Wunused:imports" />
+      </parameters>
+    </profile>
+  </component>
+</project>
